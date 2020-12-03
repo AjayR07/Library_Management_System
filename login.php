@@ -1,23 +1,11 @@
 <?php
 session_start();
 
-// if ((isset($_SESSION['auth']) && $_SESSION['auth'] === true)) {
-// 	header("Location: admin.php");
-// 	exit();
-// }
-
-// 	if (isset($_GET['access'])) {
-// 		$alert_user = true;
-// 	}
 
 require 'includes/snippet.php';
 require 'includes/db-inc.php';
 include "includes/header.php";
 
-// Error check
-
-// 					echo"<br>";
-// 					echo mysqli_errno($conn);
 
 if(isset($_POST['submit'])){
 	$username = sanitize(trim($_POST['username']));
@@ -25,7 +13,7 @@ if(isset($_POST['submit'])){
 
 	$sql_admin = "SELECT * from admin where username = '$username' and  password = '$password' ";
 	$query = mysqli_query($conn, $sql_admin);
-	// echo mysqli_error($conn);
+	
 	if(mysqli_num_rows($query) > 0){
 
 				while($row = mysqli_fetch_assoc($query)){
@@ -65,50 +53,58 @@ if(isset($_POST['submit'])){
 
 
 ?>
+<style>
+body
+{
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+</style>
+<body>
 
-
-
-<div class="container">
-
-	<div class="container  col-lg-9 col-md-11 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1 col-sm-offset-0 col-xs-offset-0  ">
-		<div class="jumbotron login col-lg-10 col-md-11 col-sm-12 col-xs-12">
-			<!-- <div class="alert alert-success alert-dismissable">
-				  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-				  <strong>Warning!</strong> Better check yourself, you're not looking too good.
-			</div> -->
-			<p class="text-center" style="text-align: center">Please provide details</p>
-
-			<div class="container">
-				<form class="form-horizontal" role="form" method="post" action="login.php" enctype="multipart/form-data">
-					<div class="form-group">
-						<div class="col-sm-10">
-							<input type="text" class="form-control" name="username" placeholder="Enter your username" id="username" required>
+	<div class="container" >
+			
+			<div class="jumbotron login" style="width:40%;background-color:white;margin:auto;margin-top:3%;margin-bottom:3%">
+				<p class="text-center" style="text-align: center">User Login</p>
+				<div class="row justify-content-center">
+				<div class="col">
+					<a href="#" class="thumbnail">
+					<img src="images/login.jpg">
+					</a>
+				</div>
+				<div class="col">
+				<div class="container">
+					<form class="form-horizontal" role="form" method="post" action="login.php" enctype="multipart/form-data">
+						<div class="form-group">
+							<div class="col-sm-12">
+								<input type="text" class="form-control" name="username" placeholder="Enter your username" id="username" required>
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-
-					</div>
-					<div class="form-group">
-						<div class="col-sm-10">
-							<input type="password" class="form-control" placeholder="Enter your password" name="password" id="password" required>
-						</div>
-					</div>
-
-					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
-							<input type="submit" class="btn btn-primary col-lg-4" name="submit" value="Login">
-
+						<div class="form-group">
 
 						</div>
-					</div>
+						<div class="form-group">
+							<div class="col-sm-12">
+								<input type="password" class="form-control" placeholder="Enter your password" name="password" id="password" required>
+							</div>
+						</div>
 
-					</div>
-				</form>
+						<div class="form-group">
+						<center><input type="submit" class="btn btn-primary col-lg-4" name="submit" value="Login" style="margin-left:30%"></center>
+						</div>
+
+						</div>
+					</form>
+				</div>
+				</div>
+				
+				</div>
+			
 			</div>
-		</div>
+		<div>
 	</div>
 
-</div>
+
 
 
 <script type="text/javascript" src="js/jquery.js"></script>
