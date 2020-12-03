@@ -1,21 +1,10 @@
 <?php
-// session_start();
-// session_destroy();
-// if (!(isset($_SESSION['auth']) && $_SESSION['auth'] === true)) {
-// 	header("Location: admin.php?access=false");
-// 	exit();
-// }
-// else {
- 	// $admin = $_SESSION['admin'];
-// }
+
 require 'includes/snippet.php';
 require 'includes/db-inc.php';
  include "includes/header.php";
 
-	// if(isset($_SESSION['admin'])){
-	// 	$admin = $_SESSION['admin'];
-	// 	// echo "Hello $user";
-	// }
+
 
  if(isset($_POST['submit'])){
 
@@ -101,7 +90,7 @@ require 'includes/db-inc.php';
 	<link rel="stylesheet" type="text/css" href="flickity/flickity.css">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 	<script type="text/javascript" src="flickity/flickity.js"></script>
-	<title>Library Management</title>
+	<title>KEC Library</title>
 
 </head>
 <body>
@@ -115,7 +104,7 @@ require 'includes/db-inc.php';
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Library Management System</a>
+				<a class="navbar-brand" href="#">KEC Library</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example">
@@ -135,7 +124,7 @@ require 'includes/db-inc.php';
 <div class="container-fluid slide">
 
     <div class="slider">
-      <!-- <h1>Flickity - wrapAround</h1> -->
+      
 
 
       <div class="carousel" data-flickity='{ "autoPlay": true }'; >
@@ -154,7 +143,7 @@ require 'includes/db-inc.php';
     </div>
 </div>
 
-		<div class="container slide2">
+		<!-- <div class="container slide2">
 
 			  <div class="panel-heading">
 		  	<div class="row">
@@ -249,11 +238,11 @@ require 'includes/db-inc.php';
     </div>
 			</div>
 
-		</div>
+		</div> -->
 
 
     <footer>
-      <p style="text-align:center;">Library Management System</p>
+      <h2 style="text-align:center;">Welcome to KEC Library</2>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

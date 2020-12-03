@@ -10,9 +10,9 @@ include "includes/header.php";
 	<!-- navbar ends -->
 	<!-- info alert -->
 	<div class="alert alert-warning col-lg-7 col-md-12 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-0 col-sm-offset-1 col-xs-offset-0" style="margin-top:70px">
-
+<center>
 		<span class="glyphicon glyphicon-book"></span>
-	    <strong>Borrow Books</strong>
+	    <strong>Borrow Books</strong><center>
 	</div>
 
 	</div>
@@ -39,7 +39,8 @@ include "includes/header.php";
 			</div>
 		  </div>
 
-		  <table class="table table-bordered">
+		  <table class="table table-bordered table-striped table-dark">
+		  <thead>
 		         <tr> 
 					<th>ID</th>
 					<th>BOOK</th>

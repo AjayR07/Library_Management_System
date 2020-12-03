@@ -14,7 +14,7 @@ $student_name = $_SESSION['student-username'];
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Library Management</title>
+	<title>KEC Library</title>
 	<style type="text/css">
 		thead{background-color: orange}
 	</style>
@@ -51,7 +51,7 @@ $student_name = $_SESSION['student-username'];
                     </tr> 
                     <tr> 
                      
-                     <td>Matric No : </td>
+                     <td>Class & Sec : </td>
                      <td><?php echo $row['matric_no']; ?></td>
                     </tr> 
                     <tr> 

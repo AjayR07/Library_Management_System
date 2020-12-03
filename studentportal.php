@@ -23,15 +23,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">SheddyBen Lib-BookSys</a>
+				<a class="navbar-brand" href="#">KEC Library</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="profile.php">View Profile</a></li>
-					<li><a href="borrow-student.php">Borrow Books</a></li>					
-					<li><a href="fine-student.php">Fines</a></li>					
+					<li><a href="borrow-student.php">Borrow Books</a></li>									
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="logout.php">Logout</a></li>
@@ -51,22 +50,13 @@
 					<div class="carousel" data-flickity='{ "autoPlay": true }'; >
 
 						  <div class="carousel-cell" auto-play >
-						  	<img src="images/header-bg.jpg">
+						  	<img src="images/3.jpg">
 						  </div>
 						  <div class="carousel-cell" auto-play>
-						  	<img src="images/header-bg.jpg">
+						  	<img src="images/2.jpg">
 
 						  </div>
-						  <div class="carousel-cell" auto-play>
-						  	 <img src="images/header-bg.jpg">
-						  </div>
-						  
-						  <div class="carousel-cell" auto-play >
-						  	<img src="images/header-bg.jpg">
-						  </div>
-						   <div class="carousel-cell" auto-play>
-						  	<img src="images/header-bg.jpg">
-						  </div>
+						
 
 					</div>
 
@@ -76,46 +66,42 @@
 		</div>
 
 		<div class="container slide2">
-			
+			<div class="page-header" style="color:black">
+				<h1>
+					Welcome to  KEC Library Portal
+				</h1>
+			</div>
+			<div class="page-header" style="color:grey">
+				<h3>
+					Recent Updates
+				</h3>
+			</div>
 	  		<div class="row">
 	  			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column">
 		  			<div class="page-header col-lg-offset-1">
-		  				<h2>Welcome to our portal</h2>
+					  <p style="text-decoration: underline;text-decoration-color: blue;color:blue;font-size:20px">Google to Deploy E-Classroom Tools in 1 Lakh Maharashtra Schools for Free</p>
+		  				
 		  			</div>
-	  				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	  				Google has partnered with Maharashtra State Education Department to deploy digital tools such as G Suite for Education and Google Classroom free-of-cost across the state. The tech giant’s education tools and services will be adopted in over one lakh schools, benefitting over 2.3 crore students and teachers in the state.
 
-	  				<a href="#"><p class="slide2"><button class="btn btn-success">Sign Up</button></p></a>
+	  				
 	  			</div>
 	  			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column">
 		  			<div class="page-header col-lg-offset-1">
-		  				<h2>24/7 Operational Support</h2>
+					  <p style="text-decoration: underline;text-decoration-color: blue;color:blue;font-size:20px">CBSE To Train Teachers In Competency-Based Education</p>
 		  			</div>
-	  				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	  				The Central Board of Secondary Education (CBSE) will train teachers in Competency-Based Education (CBE) in the academic session 2020-2021.
 	  			</div>
 	  			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column">
 	  				<div class="page-header col-lg-offset-1">
-	  				<h2>Why Us?</h2>
-	  			</div>
-	  				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					  <p style="text-decoration: underline;text-decoration-color: blue;color:blue;font-size:20px">Academicians, Activists Urge PM Modi To Safeguard Child Rights During And After COVID-19 Pandemic </p>
+				  	</div>
+					  The memorandum sent through the Right to Education (RTE) forum recommended immediate and necessary actions to ensure child rights are protected to effectively tackle issues like out of school children, child labour and child trafficking.
+				  
 	  			</div>
 	  		</div>
 		</div>
-
+<!-- 
 		<div class="container-fluid slide3" style="background-color: #282828">
 			<div class="container">
 				<div class="row">
@@ -142,16 +128,17 @@
 			</div>
 			</div>
 			
-		</div>
+		</div> -->
 		<div class="container_fluid">
-			<p class="page-header center-block">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				
-			</p>
+			
 			<p class="page-header center-block">
 				<a href="#"><button class="btn btn-primary">Contact Us</button></a>
 				<a href="#"><button class="btn btn-info">About Us</button></a>
 
+			</p>
+			<p class="page-header center-block">
+				Kongu Engineering College 
+				
 			</p>
 		</div>
 
