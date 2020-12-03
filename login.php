@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
 					$_SESSION['admin'] = $row['username'];
 					}
 					if ($_SESSION['auth'] === true) {
-				header("Location: admin.php");
+				header("Location: bookstable.php");
 				exit();
 					}
 	}
