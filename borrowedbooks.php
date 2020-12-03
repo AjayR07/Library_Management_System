@@ -12,8 +12,8 @@ include "includes/header.php";
 	<!-- info alert -->
 	<div class="alert alert-warning col-lg-7 col-md-12 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-0 col-sm-offset-1 col-xs-offset-0" style="margin-top:70px">
 
-		<span class="glyphicon glyphicon-book"></span>
-	    <strong>Borrow Books</strong>
+		<center><span class="glyphicon glyphicon-book"></span>
+	    <strong>Borrow Books</strong></center>
 	</div>
 
 	</div>

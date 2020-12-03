@@ -33,8 +33,8 @@ if(isset($_POST['del'])){
 	<!-- info alert -->
 	<div class="alert alert-warning col-lg-7 col-md-12 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-0 col-sm-offset-1 col-xs-offset-0" style="margin-top:70px">
 
-		<span class="glyphicon glyphicon-book"></span>
-	    <strong>Books</strong> Table
+	<center><span class="glyphicon glyphicon-book"></span>
+	   	    <strong>Books</strong> Table</center>
 	</div>
 
 	   
@@ -52,7 +52,7 @@ if(isset($_POST['del'])){
             </div>
             <?php } ?>
 		  	<div class="row">
-		  	  <a href="addbook.php"><button class="btn btn-success col-lg-3 col-md-4 col-sm-11 col-xs-11 button" style="margin-left: 15px;margin-bottom: 5px"><span class="glyphicon glyphicon-plus-sign"></span> Add Book</button></a>
+		  	  <a href="addbook.php"><button class="btn btn-success col-lg-3 col-md-4 col-sm-11 col-xs-11 button" style="margin-right: 15px;margin-bottom: 5px;float:right"><span class="glyphicon glyphicon-plus-sign"></span> Add Book</button></a>
 			  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
 			  	<!-- <form method="post" action="bookstable.php" enctype="multipart/form-data">
 			  		<div class="input-group pull-right">

@@ -21,9 +21,8 @@ include "includes/header.php";
 	<!-- navbar ends -->
 	<!-- info alert -->
 	<div class="alert alert-warning col-lg-7 col-md-12 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-0 col-sm-offset-1 col-xs-offset-0" style="margin-top:70px">
-
-		<span class="glyphicon glyphicon-book"></span>
-	    <strong>Student</strong> Table
+	<center>	<span class="glyphicon glyphicon-book"></span>
+	    <strong>Student</strong> Table</center>
 	</div>
 	<!-- <div class="alert alert-info col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 10px">
 		<button class="btn btn-success" style="float: left"><span class="glyphicon glyphicon-plus-sign"></span> Add Button</button>
@@ -42,12 +41,13 @@ include "includes/header.php";
 
 
 	</div>
-	<div class="container col-lg-11 ">
-		<div class="panel panel-default">
+	<div class="container col-lg-11 " style="margin-left:5%">
+		<div class="panel panel-default" >
 		  <!-- Default panel contents -->
 		  <div class="panel-heading">
 		  	<div class="row">
-		  	  <a href="addstudent.php"><button class="btn btn-success col-lg-3 col-md-4 col-sm-11 col-xs-11 button" style="margin-left: 15px;margin-bottom: 5px"><span class="glyphicon glyphicon-plus-sign"></span> Add Student</button></a>
+		  	  <a href="addstudent.php">
+				<button class="btn btn-success col-lg-3 col-md-4 col-sm-11 col-xs-11 button" style="margin-left: 15px;margin-bottom: 5px;float:right;margin-right:20px"><span class="glyphicon glyphicon-plus-sign"></span> Add Student</button></a>
 			  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
 			  	<!-- <form >
 			  		<div class="input-group pull-right">
